@@ -7,7 +7,7 @@ const ItemSchema = new Schema({
         required: true
     },
     img: {
-        data: Buffer, contentType: string
+        data: Buffer, contentType: String
     }
 })
 
